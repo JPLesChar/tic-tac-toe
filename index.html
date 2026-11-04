@@ -1,1 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="A quick, fun game of Tic Tac Toe. Play with a friend on the same device, then share the game link.">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="game-card">
+    <header class="game-header">
+      <p class="eyebrow">A little friendly competition</p>
+      <h1>Tic Tac Toe</h1>
+      <p class="subtitle">Take turns. Get three in a row.</p>
+    </header>
 
+    <section class="game" aria-label="Tic Tac Toe game">
+      <p class="status" id="status" aria-live="polite">X's turn</p>
+      <div class="board" role="group" aria-label="Game board">
+        <button class="cell" type="button" data-cell="0" aria-label="Row 1, column 1, empty"></button>
+        <button class="cell" type="button" data-cell="1" aria-label="Row 1, column 2, empty"></button>
+        <button class="cell" type="button" data-cell="2" aria-label="Row 1, column 3, empty"></button>
+        <button class="cell" type="button" data-cell="3" aria-label="Row 2, column 1, empty"></button>
+        <button class="cell" type="button" data-cell="4" aria-label="Row 2, column 2, empty"></button>
+        <button class="cell" type="button" data-cell="5" aria-label="Row 2, column 3, empty"></button>
+        <button class="cell" type="button" data-cell="6" aria-label="Row 3, column 1, empty"></button>
+        <button class="cell" type="button" data-cell="7" aria-label="Row 3, column 2, empty"></button>
+        <button class="cell" type="button" data-cell="8" aria-label="Row 3, column 3, empty"></button>
+      </div>
+
+      <div class="actions">
+        <button class="button button-primary" id="restart" type="button">New game</button>
+        <button class="button button-secondary" id="share" type="button">Share on WhatsApp</button>
+      </div>
+      <p class="hint">Playing together? Hand the phone to the next player after each turn.</p>
+    </section>
+    <footer>Made for playing together ✨</footer>
+  </main>
+</body>
+</html>
