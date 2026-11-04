@@ -15,3 +15,5 @@ Open `index.html` in a browser, or publish the repository with GitHub Pages.
 5. Open that link on your phone and tap **Share on WhatsApp** (or copy and paste the link into a chat).
 
 GitHub Pages may take a few minutes to publish the first time.
+
+Deployment test: 2026-11-04
